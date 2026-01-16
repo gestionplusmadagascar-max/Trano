@@ -85,3 +85,12 @@
 .listing-grid {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
+
+.status {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.status.error {
+  color: #b91c1c;
+}

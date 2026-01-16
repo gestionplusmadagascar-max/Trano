@@ -22,6 +22,15 @@
   margin-bottom: 24px;
 }
 
+.status {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.status.error {
+  color: #b91c1c;
+}
+
 @media (max-width: 960px) {
   .search-page {
     grid-template-columns: 1fr;

@@ -1,24 +1,21 @@
 {
   "name": "trano-frontend",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "dev": "parcel index.html --port 5173",
+    "build": "parcel build index.html",
+    "preview": "parcel serve index.html --port 5173"
   },
   "dependencies": {
-    "clsx": "^2.1.1",
+    "i18next": "^23.15.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-i18next": "^15.0.0",
     "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
-    "@types/react": "^18.3.5",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.2",
-    "typescript": "^5.6.3",
-    "vite": "^5.4.8"
+    "parcel": "^2.13.0"
   }
 }

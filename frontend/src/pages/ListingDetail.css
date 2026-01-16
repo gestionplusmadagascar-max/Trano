@@ -77,3 +77,13 @@
   flex-wrap: wrap;
   margin-top: 24px;
 }
+
+.detail-status {
+  margin-top: 16px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.status.error {
+  color: #b91c1c;
+}
