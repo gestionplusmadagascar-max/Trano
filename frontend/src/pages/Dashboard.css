@@ -1,0 +1,64 @@
+.dashboard__grid {
+  display: grid;
+  gap: 24px;
+}
+
+.dashboard__summary {
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.dashboard__balance {
+  text-align: right;
+}
+
+.dashboard__amount {
+  font-size: 32px;
+  color: var(--primary);
+  margin: 8px 0 16px;
+}
+
+.dashboard__actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.dashboard__panel {
+  padding: 24px;
+}
+
+.dashboard__form {
+  display: grid;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.dashboard__form label {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.dashboard__form .checkbox {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.dashboard__side {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.dashboard__mini {
+  padding: 20px;
+}
